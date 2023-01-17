@@ -187,7 +187,7 @@
 
                             if ($table->num_rows > 0) {
                                 while ($row = $table->fetch_assoc()) {
-                                    print "<a href='read_more1.php?my_id=" . $row["id"] . "'>read more</a>";
+                                    print "<a href='read_laptop.php?my_id=" . $row["id"] . "'>read more</a>";
                                 }
                             }
                             ?>
@@ -209,7 +209,7 @@
 
                             if ($table->num_rows > 0) {
                                 while ($row = $table->fetch_assoc()) {
-                                    print "<a href='read_more1.php?my_id=" . $row["id"] . "'>read more</a>";
+                                    print "<a href='read_laptop.php?my_id=" . $row["id"] . "'>read more</a>";
                                 }
                             }
                             ?>
@@ -394,7 +394,7 @@
     <br>
     <br>
     <div class="div_flex" id="contact">
-        <div class="div_img"></div>
+        <img src="images/types-of-homes-hero.jpg" alt="">
         <div class="div_left">
             <h1>why choose us</h1>
             <br>

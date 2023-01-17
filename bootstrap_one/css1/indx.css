@@ -222,7 +222,7 @@ body {
 
 .slide .carousel-inner .div_image1 {
     position: absolute;
-    top: 37%;
+    top: 30%;
     left: 45.5%;
     z-index: 1;
 }
@@ -305,9 +305,7 @@ body {
     display: flex;
 }
 
-.div_flex .div_img {
-    background-image: url("../../images/types-of-homes-hero.jpg");
-    background-size: cover;
+.div_flex img {
     height: 80vh;
     width: 50%;
 }
@@ -497,10 +495,6 @@ body {
         flex-direction: column;
     }
 
-    .div_flex .div_img {
-        width: 100%;
-    }
-
     .div_flex .div_left {
         width: 100%;
     }
@@ -534,6 +528,10 @@ body {
         display: flex;
         flex-direction: column;
         text-align: center;
+    }
+
+    .div_flex img {
+        width: 100%;
     }
 }
 
