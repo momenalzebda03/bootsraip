@@ -56,11 +56,11 @@
         </div>
     </nav>
     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <h1 class="my_h1">we're an landependent<br>design and <span class="my_develoment">develoment</span><br>agenct.</h1>
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1" style="height: 20px;"></button>
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2" style="height: 20px;"></button>
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3" style="height: 20px;"></button>
-            <h1 class="my_h1">we're an landependent<br>design and <span class="my_develoment">develoment</span><br>agenct.</h1>
         </div>
         <div class="carousel-inner">
             <div class="ovrle"></div>
@@ -76,7 +76,6 @@
         </div>
     </div>
     <!-- end header -->
-
     <!-- start main -->
     <div class="container div_col">
         <div class="row">
@@ -102,7 +101,6 @@
             </div>
         </div>
     </div>
-
     <div class="div_color">
         <div class="container">
             <h1 id="about">company overview</h1>
@@ -120,7 +118,6 @@
         print "<a href='read_more.php' type='button' class='btn btn-danger'>VIEW MORE</a>";
         ?>
     </div>
-
     <div class="div_featured pt-5 mt-5">
         <div class="container">
             <h1 id="work">featured work</h1>
@@ -146,7 +143,6 @@
             </div>
         </div>
     </div>
-
     <div class="div_images">
         <img src="images/html.jfif" alt="" id="image1">
         <img src="images/java.png" alt="" id="image2">
@@ -157,7 +153,6 @@
         <img src="images/system analysis.jpg" alt="" id="image7">
         <img src="images/Software Engineering.webp" alt="" id="image8">
     </div>
-
     <div class="div_latest pt-5 mt-5">
         <h1>latest post</h1>
         <br>
@@ -251,46 +246,52 @@
         </div>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <div class="div_image1">
-                    <img src="images/team-01.png" alt="">
-                    <br>
-                    <br>
-                    <h2 style="text-align: center;">james jonathan</h2>
-                    <p style="text-align: center;">company CEO</p>
-                    <br>
-                    <p style="text-align: center;">Lorem ipsum dolor, sit amet consectetur adipisicing elit.<br> Sed,
-                        qui quas, inventore esse aliquam
-                        temporibus at similique tempore quasi maxime cum</p>
+                <div class="div_center">
+                    <div class="div_image1">
+                        <img src="images/team-01.png" alt="">
+                        <br>
+                        <br>
+                        <h2 style="text-align: center;">james jonathan</h2>
+                        <p style="text-align: center;">company CEO</p>
+                        <br>
+                        <p style="text-align: center;">Lorem ipsum dolor, sit amet consectetur adipisicing elit.<br> Sed,
+                            qui quas, inventore esse aliquam
+                            temporibus at similique tempore quasi maxime cum</p>
+                    </div>
+                    <img src="images/image_one.webp" class="d-block w-100 image1" alt="...">
                 </div>
-                <img src="images/image_one.webp" class="d-block w-100 image1" alt="...">
             </div>
             <div class="carousel-item">
-                <div class="div_image1">
-                    <img src="images/team-02.png" alt="">
-                    <br>
-                    <br>
-                    <h2 style="text-align: center;">sands jonathan</h2>
-                    <p style="text-align: center;">company CEO</p>
-                    <br>
-                    <p style="text-align: center;">Lorem ipsum dolor, sit amet consectetur adipisicing elit.<br> Sed,
-                        qui quas, inventore esse aliquam
-                        temporibus at similique tempore quasi maxime cum</p>
+                <div class="div_center">
+                    <div class="div_image1">
+                        <img src="images/team-02.png" alt="">
+                        <br>
+                        <br>
+                        <h2 style="text-align: center;">sands jonathan</h2>
+                        <p style="text-align: center;">company CEO</p>
+                        <br>
+                        <p style="text-align: center;">Lorem ipsum dolor, sit amet consectetur adipisicing elit.<br> Sed,
+                            qui quas, inventore esse aliquam
+                            temporibus at similique tempore quasi maxime cum</p>
+                    </div>
+                    <img src="images/image_tow.jfif" class="d-block w-100 image1" alt="...">
                 </div>
-                <img src="images/image_tow.jfif" class="d-block w-100 image1" alt="...">
             </div>
             <div class="carousel-item">
-                <div class="div_image1">
-                    <img src="images/team-03.png" alt="">
-                    <br>
-                    <br>
-                    <h2 style="text-align: center;">momen jonathan</h2>
-                    <p style="text-align: center;">company CEO</p>
-                    <br>
-                    <p style="text-align: center;">Lorem ipsum dolor, sit amet consectetur adipisicing elit.<br> Sed,
-                        qui quas, inventore esse aliquam
-                        temporibus at similique tempore quasi maxime cum</p>
+                <div class="div_center">
+                    <div class="div_image1">
+                        <img src="images/team-03.png" alt="">
+                        <br>
+                        <br>
+                        <h2 style="text-align: center;">momen jonathan</h2>
+                        <p style="text-align: center;">company CEO</p>
+                        <br>
+                        <p style="text-align: center;">Lorem ipsum dolor, sit amet consectetur adipisicing elit.<br> Sed,
+                            qui quas, inventore esse aliquam
+                            temporibus at similique tempore quasi maxime cum</p>
+                    </div>
+                    <img src="images/image_three.webp" class="d-block w-100 image1" alt="...">
                 </div>
-                <img src="images/image_three.webp" class="d-block w-100 image1" alt="...">
             </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide="prev">
@@ -482,7 +483,7 @@
                             <ul>
                                 <li>fAQ</li>
                                 <li>Blog</li>
-                                <li>how it work</li>
+                                <li class="li_work">how it work</li>
                                 <li>benefits</li>
                                 <li>contact</li>
                             </ul>
